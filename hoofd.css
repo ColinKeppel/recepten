@@ -1,0 +1,106 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-image: url(boerenkool.jpg);
+	margin: 0px 0px;
+	padding: 0% 15%;
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+.housing {
+	background-color: black;
+	height: 94%;
+	display: block;
+	top: 3%;
+	width: 70%;
+	margin: auto;
+	position: absolute;
+	/* padding-right: 1.8%; */
+	/* padding-left: 1.8%; */
+	overflow: auto;
+	border-radius: 10px;
+}
+
+.header {
+	height: auto;
+	background-color: #e5eec1;
+	padding: 2.426% 0%;
+	box-shadow: inset 0px 0px 19px 1px rgba(0,0,0,0.75);
+}
+
+.content {
+	background-color: #a2d4ab;
+	height: 120%;
+	box-shadow: inset 0px 0px 19px 1px rgba(0,0,0,0.75);
+}
+
+.innercontent {
+	background-color: #7ca17a;
+	min-height: 5%;
+	position: relative;
+	padding: 20px 0px;
+	width: 80%;
+	margin: auto;
+
+}
+
+#innercontent1 {
+ top: 3%;
+}
+
+#innercontent2 {
+	bottom: -5%;
+}
+
+#innercontent3 {
+	bottom: -7%;
+}
+
+footer {
+	top: 1%;
+	background-color: #E5EEC1;
+	height: 10%;
+	box-shadow: inset 0px 0px 19px 1px rgba(0,0,0,0.75);
+}
+h2 {
+	font-size: 18px;
+	text-align: center;
+	color: #547a82;
+	font-family: 'Comfortaa', cursive;
+	margin: 0px;
+}
+p, h3, h4 {
+	font-size: 16px;
+	text-align: center;
+	color: #a2d4ab;
+	font-family: 'Comfortaa', cursive;
+	margin: 0px;
+}
+ul {
+	text-align: left;
+	font-size: 18px;
+	color: #a2d4ab;
+	font-family: 'Comfortaa', cursive;
+	margin: 1px;
+	list-style-type: none;
+  margin: 0;
+  padding: 2;
+  display: table-cell;
+}
+footer {
+	font-size: 20px;
+	text-align: center;
+	color: #a2d4ab;
+	font-family: 'Comfortaa', cursive;
+	margin: 0px;
+}
+.boerenkool{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+	width: 175px;
+	border-radius: 20px 20px 20px;
+}
